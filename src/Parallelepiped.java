@@ -9,8 +9,7 @@ public class Parallelepiped {
     }
 
     private void negativeNumber(int height, int length, int width) throws Exception {
-
-        if ((height < 0 || length < 0 || width < 0) || height > 20 || length > 20 || width > 20) {
+        if (height < 0 || length < 0 || width < 0 || height > 20 || length > 20 || width > 20) {
             throw new Exception();
         } else {
             this.height = height;
@@ -18,7 +17,7 @@ public class Parallelepiped {
             this.width = width;
         }
     }
-    
+
     public int area() {
         return 2 * ((height * length) + (length * width) + (height * width));
     }

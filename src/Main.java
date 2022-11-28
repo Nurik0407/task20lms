@@ -20,7 +20,8 @@ public class Main {
         } catch (InputMismatchException inputMismatchException) {
             System.out.println("Only digit!");
         } catch (Exception e) {
-            System.out.println("No cannot negative number!");
+            System.out.println("Don't fit the condition!!");
         }
+
     }
 }
